@@ -40,3 +40,10 @@ Convert the data frame from categorical values to quantitative ones, namely from
 ```python
 pd.get_dummies(df["fuel"])
 ```
+
+
+# To compute the most common value of a column :
+
+```python
+df["name of the column"].value_counts().idxmax()
+```
